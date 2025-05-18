@@ -17,7 +17,7 @@ const experiences = [
       },
     ],
     description: 'Research in Spoken LLM.',
-    logo: '/images/MTK.jpg',
+    logo: '/mywebsite/images/MTK.jpg',
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const experiences = [
       },
     ],
     description: 'Build a local-run LLM chatbot with autogen studio for NXP product engineering wafer defect analysis case.',
-    logo: '/images/NXP.png',
+    logo: '/mywebsite/images/NXP.png',
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ const experiences = [
       },
     ],
     description: 'Developed payroll conversion pipeline and researched OpenKM. Also, assist the marketing team in surveying industry research related to digital transformers, NFTs, and Web3.',
-    logo: '/images/LCG.png',
+    logo: '/mywebsite/images/LCG.png',
 
   },
 ];
@@ -68,7 +68,7 @@ const education = [
     location: 'Taipei, Taiwan',
     period: '2021 - Present',
     description: 'Focus on advanced topics in machine learning, computer vision, and digital IC.',
-    logo: '/images/NTU.jpg',
+    logo: '/mywebsite/images/NTU.jpg',
   }
 ];
 

@@ -3,23 +3,43 @@ import { ExternalLink, Github, Filter } from 'lucide-react';
 
 // Sample projects - replace with your actual projects
 const projects = [
-  // {
-  //   id: 1,
-  //   title: 'Smart Home Automation System',
-  //   description: 'A comprehensive IoT solution for home automation using Raspberry Pi and custom sensors.',
-  //   image: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-  //   technologies: ['IoT', 'Python', 'Raspberry Pi', 'MQTT'],
-  //   demoLink: '#',
-  //   githubLink: '#',
-  //   category: 'hardware',
-  // },
+  {
+    id: 1,
+    title: 'Autonomous Driving VLM',
+    description: 'Pre-training LLaVa to enhance versatile integration of semantics, images, and object detection for novel corner case analysis',
+    image: 'https://ichef.bbci.co.uk/ace/ws/660/cpsprodpb/87DA/production/_100687743_af1cbb8f-8c08-4b82-bf85-b3e514f4c5e4.jpg.webp',
+    technologies: ['Computer Vision', 'Python', 'VLM', 'Machine Learning'],
+    demoLink: '#',
+    githubLink: 'https://github.com/gary920209/LLAVA_on_AutonomousDriving',
+    category: 'ai',
+  },
+  {
+    id: 2,
+    title: 'IOTA Donation box',
+    description: 'We address the issues of non-transparent cash flow, overfunding, and labor-cost processes in donations. Our system combines a donation box with a coin sensor and a front-end web application with IOTA to provide a transparent donation process.',
+    image: 'https://ichef.bbci.co.uk/ace/ws/660/cpsprodpb/87DA/production/_100687743_af1cbb8f-8c08-4b82-bf85-b3e514f4c5e4.jpg.webp',
+    technologies: ['IoT', 'Web'],
+    demoLink: 'https://youtu.be/zo2oxjBM42g',
+    githubLink: 'https://github.com/gary920209/IOTA_Donation_box',
+    category: 'web'
+  },
+  {
+    id: 3,
+    title: 'Music Interactive Game System',
+    description: 'Built a music rhythm game on FPGA, integrating LED and VGA displays, music playback, and a camera sensor. The FPGA controls visual and audio outputs and detects hand gestures in real-time to score hits on falling blocks.',
+    image: 'website/images/ICLab.jpg',
+    technologies: ['IoT', 'FPGA', 'Verilog'],
+    demoLink: '#',
+    githubLink: 'https://github.com/gary920209/music_interactive_games',
+    category: 'ic'
+  },
 ];
 
 const categories = [
   { id: 'all', name: 'All Projects' },
   { id: 'web', name: 'Web Development' },
   { id: 'ai', name: 'AI & ML' },
-  { id: 'hardware', name: 'Hardware' },
+  { id: 'ic', name: 'Digital IC' },
 ];
 
 interface ProjectCardProps {
