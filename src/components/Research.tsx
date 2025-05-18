@@ -13,7 +13,7 @@ const papers = [
     code_link: "https://github.com/mtkresearch/TASTE-SpokenLM",
     page_link: "https://mtkresearch.github.io/TASTE-SpokenLM.github.io/",
     tags: ['Speech Processing', 'Machine Learning'],
-    image: 'images/Taslm.png',
+    image: '/images/Taslm.png',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const papers = [
     code_link: "",
     page_link: "",
     tags: ['Data Science', 'Bioinformatics'],
-    image: 'images/JMII.png',
+    image: '/images/JMII.png',
   },
 ];
 
